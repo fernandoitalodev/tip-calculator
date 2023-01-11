@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+    <h1>SPLI <br> TTER</h1>
+   </header>
+   <main id="main">
+    <section>
+      <div class="screen-numbers">
+     <div class="bill">
+      <h2 class="sections-title">Bill</h2>
+      
+        <img src="./images/icon-dollar.svg" class="icon" alt="">
+      <input type="text" name="bill" id="bill-input" class="inputs">
+    
+      
+     </div>
+    </div>
+
+    <div class="select-tip">
+      <h2 class="sections-title">Select Tip %</h2>
+      <div class="select-tip-container">
+        <input type="button" name="percent" class="btn-tip-percent" value="5">
+        <input type="button" name="percent" class="btn-tip-percent"value="10">
+        <input type="button" name="percent" class="btn-tip-percent" value="15" >
+        <input type="button" name="percent" class="btn-tip-percent" value="25">
+        <input type="button" class="btn-tip-percent" value="50" > 
+        
+        <input  class="input-tip btn-tip-percent" type="text" name="custom" id="custom-tip" placeholder="Custom" >
+      </div>
+      <div class="peoples">
+        <h2 class="sections-title " id="titlePeople">  Number of People</h2> 
+        <img src="./images/icon-person.svg" class="icon" alt="">
+        <input type="text" name="quantity-people" id="quantity-people" class="inputs" value="1" >
+      </div>
+    </div>
+
+    </section>
+    
+    <div class="screen-results">
+      <div class="tip-amount-total-result">
+        <div class="results">
+          <h3>Tip amount</h3>
+          <p>/person</p>
+        </div>
+        <div class="show-result">
+          <img src="./images/icon-dollar.svg" alt="" class="icon">
+          <label for="result-tip-amount" alt="the result"></label>
+          <input disabled="true" type="text" name="result-tip-amount" id="result-tip-amount" value="0.00">
+        </div>
+
+      </div>
+
+      <div class="tip-amount-total-result">
+        <div class="results">
+          <h3>Total</h3>
+          <p>/person</p>
+        </div>
+        <div class="show-result">
+          <img src="./images/icon-dollar.svg" alt="" class="icon">
+          <input type="text" name="result-total-bill" id="result-total-bill" value="0.00" disabled="true">
+        </div>
+
+      </div>
+      <div class="btn-reset-container">
+ <button class="btn-reset"id="btn-reset">RESET</button>
+
+      </div>
+     
+
+    </div>
+   </main>
+ 
+  <footer>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://fernandoitalodev.github.io/personal-portifolio/">Fernando Ítalo</a>.
+  </div>
+  </footer>
+  
+  <script src="index.js"></script>
+</body>
+</html>
