@@ -15,7 +15,7 @@ header {
   text-align: center;
   margin-top: 5%;
   margin-bottom: 2%;
-  color: hsl(180deg, 30%, 96%);
+  color: hsl(180deg, 12%, 23%);
   font-size: 0.7rem;
 }
 
@@ -30,7 +30,7 @@ main {
   grid-template-areas: "section screen";
 }
 main .sections-title {
-  color: hsl(180deg, 30%, 96%);
+  color: hsl(180deg, 12%, 23%);
   font-size: 0.7em;
 }
 main .inputs {
@@ -124,7 +124,7 @@ section .peoples .cant-be-zero-label::after {
   white-space: nowrap;
 }
 .screen-results .tip-amount-total-result .results p {
-  color: hsl(180deg, 30%, 96%);
+  color: hsl(180deg, 12%, 23%);
   font-size: 0.7em;
 }
 .screen-results .tip-amount-total-result .show-result {
